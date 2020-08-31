@@ -9,16 +9,16 @@ public class test01 {
         Person person = new Person(9,"你好！");
         System.out.println(person.getInfo());
     }
-    static class Person{
-        int a;
-        String b;
-        Person(int a,String b){
-            this.a = a;
-            this.b = b;
-        }
-        public String getInfo(){
-            return ("祝福语为："+b+"幸运数字为："+a);
-        }
-    }
+}
 
+class Person{
+    private int a;
+    private String b;
+    Person(int a,String b){
+        this.a = a;
+        this.b = b;
+    }
+    public String getInfo(){
+        return ("祝福语为："+b+"幸运数字为："+a);
+    }
 }
